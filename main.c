@@ -1,4 +1,4 @@
-#include <stdio.h>      // printf, perror, fopen, fread, etc.
+#include <stdio.h>      
 #include <stdlib.h>     // exit, malloc, atoi
 #include <string.h>     // strlen, strcmp, sscanf, memmove
 #include <unistd.h>     // close
