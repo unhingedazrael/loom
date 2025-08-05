@@ -1,11 +1,11 @@
 #include <stdio.h>      
-#include <stdlib.h>     // exit, malloc, atoi
-#include <string.h>     // strlen, strcmp, sscanf, memmove
-#include <unistd.h>     // close
-#include <arpa/inet.h>  // htons, htonl
-#include <sys/types.h>  // basic socket types
-#include <sys/socket.h> // socket functions: socket, bind, listen, accept
-#include <netinet/in.h> // struct sockaddr_in
+#include <stdlib.h>     
+#include <string.h>     
+#include <unistd.h>     
+#include <arpa/inet.h>  
+#include <sys/types.h>  
+#include <sys/socket.h> 
+#include <netinet/in.h> 
 
 #define buffer_size 3000 // Define buffer size for reading data
 
@@ -99,6 +99,6 @@ int main(int argc, char* argv[]) {
         close(client_socket);
     }
 
-    // Close the server socket (unreachable code in this infinite loop)
+    // Close the server socket 
     close(server_socket);
 }
